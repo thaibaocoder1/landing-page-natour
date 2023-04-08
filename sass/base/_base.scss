@@ -6,6 +6,11 @@
 html {
   font-size: 62.5%;
 }
+html,
+body {
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+}
 body {
   box-sizing: border-box;
 }
